@@ -77,9 +77,9 @@ import { tokens } from "../../theme";
                 eventsSet={(events) => setCurrentEvents(events)}
                 initialEvents={[
                     {id: 1234, title:"All-day Event", date:"2022-11-14"},
-                    {id: 12345, title:"Timed event", date:"2022-11-28"},
-                    {id: 12345, title:"Timed event", date:"2022-11-7"},
-                    {id: 12345, title:"Timed event", date:"2022-11-21"},
+                    {id: 2347, title:"Timed event", date:"2022-11-28"},
+                    {id: 32346, title:"Timed event", date:"2022-11-7"},
+                    {id: 42345, title:"Timed event", date:"2022-11-21"},
                 ]}
                 />
             </Box>
