@@ -76,8 +76,10 @@ import { tokens } from "../../theme";
                 eventClick={handleEventClick}
                 eventsSet={(events) => setCurrentEvents(events)}
                 initialEvents={[
-                    {id: 1234, title:"All-day Event", date:"2022-10-14"},
-                    {id: 12345, title:"Timed event", date:"2022-10-28"},
+                    {id: 1234, title:"All-day Event", date:"2022-11-14"},
+                    {id: 12345, title:"Timed event", date:"2022-11-28"},
+                    {id: 12345, title:"Timed event", date:"2022-11-7"},
+                    {id: 12345, title:"Timed event", date:"2022-11-21"},
                 ]}
                 />
             </Box>
