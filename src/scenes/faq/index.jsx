@@ -82,6 +82,20 @@ const FAQ = () => {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
+
+            <Accordion defaultExpanded>
+                <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                    6 Important Question
+                    </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        How do rest your pin from this website ?
+                        Next line before the answer
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
         </Box>
 
     );
